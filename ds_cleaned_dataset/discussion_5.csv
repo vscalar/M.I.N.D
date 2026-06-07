@@ -1,0 +1,152 @@
+No.,Q1,Q2
+1,Example of outlier detection is there is someone login our account in another device that we not owned. A student answer quiz that has lot of question correctly in very small amount of time.,I think AI agent can identifies outliers just effectively as statistical or distance-based approaches because it is trained by this same method. The advantage it has is identifie which method is best for each case.
+2,NULL,"A. I think AI Agents are better at written detection. As we learned today, defining a data as outlier is too much context-sensitive. Sometimes the data can be a noise point a unstable point on the century while we can investigate the outlier using statistical or distance based approaches they aren't aware of external contexts. For instance, what if the data regarding human height was abnormal externally such as all kept have around 10 meters of height? LLM has what external context easily detect, easily 'awareness gaps' while other approaches won't."
+3,"1) finding someone that scores much higher than other student
+
+using images of the same object to learn outlier detection to detect anomaly (maybe pipe?)
+More effectively, even better than human.
+
+reason 1: It can also see the data points as image input like human do, which can be faster with large no. of data points.
+
+reason 2: Most distance-based algo require us to tune the parameter which can require humans intervention. The AI can do this by itself and improve when needed.   TYPO
+
+자율주행차 detecting a pothole on the road and avoid it
+
+To find the best restaurant in Anam!",NULL
+4,NULL,"I think AI agent that identifies outliers more effectively? Maybe both are using similar formula or algorithm, or even the same one, but the computation ability of AI agent may be faster thus more effectively. Besides, AI agent may do classification better therefore provide various accurate versions."
+5,NULL,"In my opinion, nowadays AI agents can work more effectively in detecting outliers in most of the general cases. If the prompts are given clearly by users the AI agents can work well, therefore computational cost and time are saved. But since it cannot guarantee the accuracy in real world cases we still need those statistical/distance-based approaches to improve in the process of outlier detection."
+6,NULL,"It seems that AI could be used to identify new species based on their characteristics. For example, humans are classified as having two legs and two arms, but it would be difficult to classify a newly discovered alien species using that existing framework. In such a case, if we show the AI a photo of the alien and define it as having six legs and four arms, the AI could use that data to determine that it is a new species. This would allow for more effective species classification and the ability to handle new data, such as that of an alien species."
+7,"healthcare/diagnosis - abnormal heartrate, blood pressure or lab results can be outliers
+
+Online shopping - a user suddenly placing hundreds of orders in minutes could be also
+
+","AI agent can be more effective but not always
+AI agent
++
+• can understand context, patterns
+• better for high dimensional data
+• can combine multiple goals
+
+statistical
++
+• more transparent, explainable
+• easier to implement
+• works well when outliers are clearly far from the mean or cluster
+
+In many real systems combining both [crossed out] approaches gives the best results."
+8,"Real world examples of outlier detections.
+- Network Intrusion Detection
+  → A user suddenly accesses 100,000 request (DDOS) per sec
+  → record from a single IP (cybersecurity)
+- Collective outliers (Normal individually, abnormal as pattern over time)
+- Fake news
+  → Article mixes with unrelated claims
+  → Contextual outlier (the sentence is odd given the situation).","it depends heavily on what data type and task. One common example is, AI → 2200 shot defection ⇒ Can flag anomalies on aero training data on what 'normal' looks like. Methods → No hallucination risk ⇒ AI can confidently identify something as outlier even often it's not. Statistical/proximity methods don't have this.Apart from that, the computational cost for these methods are commonly higher than using AI, since AI used already a pretrained model or they can apply various method (knowledge distillation/transfer learning)."
+9,NULL,"In my opinion if the data is a numerical data it is better to use the statistical distance based approaches but if it is for surveillance or image outlier it is better to use AI agent. This is because there are a lot of AI models that has already pre-trained for image detection and there AI agent actually make use of distance based approach to get the loss while detecting the image. Thus, it depends on what data are we searching outliers from and the effectiveness can defer."
+10,NULL,"In my opinion, I think AI agent can be more effective in detecting outliers than traditional method if the dataset is complex and heavy. Statistical or distance-based approaches may be best in computation if the data is small, but may not be as effective as AI agent in detecting outliers.
+Many real world examples involves high-dimensional data that relate so many categories and label within a single data.
+This may cause outliers to be more complex, which AI agent is more capable of. In addition, AI agent can also learn. They can learn what is ""normal,"" and act for the given dataset, to produce a more accurate outliers detection compared to traditional approaches. The drawbacks may be computation costs and training data."
+11,"Real world examples of outlier detection include fraud detection in banking transactions, identifying defective products in manufacturing, and detecting abnormal patient data in healthcare. ","AI agents and detecting complex, nonlinear patterns and context, making them often more effective than traditional statistical or distance-based methods in high-dimensional data. However, statistical approaches remain more interpretable and reliable in simpler settings with clear assumptions."
+12,"Outlier detection appears in cybersecurity, e-commerce and sensor networks. ","AI agent can adapt over time and detect subtle anomalies, but they may overfit or produce false positives if data quality is poor. Distance-based and statistical methods are simpler and faster, making them more robust for real-time or small-scale applications."
+13,NULL,"A clear answer is that AI seems to use outlier detection, and it has good and useful answers. Therefore, even if AI agents are more accurate, they are more “suitable/adaptive” in a practical way. In that sense, “even when the data is not very clear,” AI can still provide a detailed-looking explanation based on some evidence.
+
+However, to make the result better and more reliable, statistical methods should also be used at the same time."
+14,A. detecting unusual amount of money withdrawal from ATM - might be phishing victim,NULL
+15,"One outlier-detection example is detecting hackers in online games, such as too high shot-rate, impossible movement speed, or perfect accuracy.
+
+","I think there are specific situation where AI agents detect outliers better than statistical methods. For example in case of hack programs in game, it can be easily detected by statistical methods because everything is measured by specific value (e.g. shot-rate, movement speed).
+
+But in case of normal text, such as text written by human and AI, AI cannot be measured by fixed statistics, so AI could detect better."
+16,"We can react to server disaster quickly by detecting weird metrics.
+","
+LLM can't directly process manage by data. Context window is too small."
+17,NULL,"I think that an AI agent would identify outliers more effectively using the statistical method.
+Statistical methods rely on a predefined data distribution model which makes outliers more efficient.
+As long as the distribution assumption is correct, I think that statistical methods any much more effective for the AI agent. Distance-based approaches can be more computationally expensive and no distribution is assumed so I assume that the AI agent will struggle a bit more when it comes to large data sets or complex data."
+19,"Real world example of outlier detection include credit card fraud detection, identifying defective products in manufacturing, and spotting unusual medical test results. ","Traditional statistical or data-based methods are effective for structured numerical data and are easy to interpret. However, they may struggle with complex or unstructured data, such as image. AI agents like Claude can detect outliers in more complex scenarios by understanding context and patterns beyond simple statistics. For example, AI can spot awkwardly worded sentences in news article or unusual pattern in images.
+Likewise, AI methods require huge datasets and may lack transparency. So, AI agents can be more effective for complex data, while traditional methods are reliable for simpler, structured data."
+20,"
+In the financial sector, there is a secret to how AI agents can perform tasks like detecting outliers in credit card fraud (e.g., detecting transactions that are unnatural when compared to typical usage patterns).
+
+In the medical field as well, AI agents can perform tasks like detecting outliers in patient monitoring (e.g., heart rate analysis), making them potentially more effective due to the quality of the data produced.",NULL
+21,"An AI agent can perform analysis through detection, and while methods such as statistical ones will have the most influence, outlier detection seems to be more effective.",NULL
+22,"Credit card - If a payment occurs at a place not typically visited, it is considered an abnormal transaction.
+
+Exercise measurement - Aside from excessive exercise, it tracks patterns of usual physical activity. It is appropriate for monitoring anomalies like unusual heart rate or movement.
+
+AI Agents vs. Distance-based methods
+AI agents are capable of detecting anomalies by measuring the distance of occurrences. They can also handle complex or latent operational distances.
+While distance-based methods might determine similarity based on proximity, they often lack the capability for real-time recognition or processing of the many complex, varied, or high-dimensional patterns encountered in real-world scenarios. They struggle to identify the diverse and rapid changes in behavioral patterns. Therefore, AI is being used to bridge this gap.",NULL
+23,"The score that exceeds 100 in test scores could be considered as an outlier.
+
+",AI agents will identify the outliers better than statistical or distance-based approaches because they exploit more background knowledge about the data itself.
+25,"Outlier detection is used in fraud detection (unusual transactions), healthcare and manufacturing.
+
+","AI agents can be more effective for complex of high dimensional data because they capture patterns and context, but statistical or distance-based methods are more stable and interpretable when data is simple and well-structured."
+27,"Credit card companies use AI to flag a purchase made in a foreign country as an outlier, whereas manufacturing plants use sensor data to detect microscopic vibrations that signal engine failure.
+
+","Since AI agents can analyze hundreds of variables simultaneously, identifying hidden anomalies that simple statistical thresholds often overlook can be easier."
+29,"Suppose I want to investigate the asset of Korea University students who graduated in 2010. There can be outliers who bought 10 bitcoin in 2010 and became rich because we should detect them because they can overestimate the average of the asset.
+
+","I think AI agent can detect outliers more effectively. They understand the context of the situation and use it as the knowledge. For example, suppose that we are analyzing the sales of Pistachio annually. Traditional methods can regard ""2026"" data as outliers. AI agent has knowledge of Dubai cookie. so, they can regard it as normal data."
+30,"Outlier detection can be applied to stock market analyst, for instance. More specifically, [crossed out] a high volume buying/selling funds can indicate possible abnormalities. In future event, and traders can be more aware and prepared.
+
+","AI agent can be more efficient in finding outliers in terms of versatility of data, and its contrast while statistical data outperform AI in terms of consistency and faster identification."
+31,"the credit card fraud.
+In structured numerical problems, outlier detection can be used. Using pattern data like amount, place, and time, we can figure out suspicious activities (like two multiple transactions in 30m (Asian community)).
+","An AI agent can be useful when the data structure is humans or semantic rather than just numbers. Like the example in the slide, determining outliers in the news article. (Pictures/or multimodal cars) should be handled with AI agents. However, it a task can be managed through numbers not heavily encoded with neural networks, it is unnecessary to use AI agent because of the computation cost and multivariance. (However, AI-generated code can be higher.)"
+32,"Since outlier detection is a subtle task, it is a task that requires a more exemplary approach. Therefore, AI Agents will perform better by leveraging multi-modal capabilities. For this reason, verification activities for AI Agents have become a significant area of focus. In particular, it is about AI Agents effectively detecting outliers by leveraging context and knowledge.","In certain complex situations, distance-based models work by performing subtle detection tasks, so distance-based models are a good choice for these types of tasks. When utilizing AI for these detection tasks, it is a good approach to leverage specific, task-oriented detection methods."
+33,"Real-world examples to find outliers.
+Scholarship process, where in this world everyone gets higher good grades. Surprising requirement, you do to scholarship championship/tournament but are the one with outstanding talent, capability always wins the chances. (Usually with scholar of acceptance rate is 4 1.75)% than the prom choose 2 students out of 10,000 participants.
+
+","AI agent identifies outliers more/less effective than statistical/distance based.
+In terms of speed/performance, AI Agent effectively identifies outliers since they are multiple agent working to execute the plan of finding the outliers. However, since AI Agent have the possibility of hallucination and prone to make own decision making, hence statistical/distance → math/facts based model is more effective and trustable.   ← best
+
+→ Maybe use AI Agent to fix the threshold or suggest most likely to accurate method."
+34,"Think of real-world examples of outlier detection.
+Discuss whether an AI agent (e.g. Claude) identifies outliers more or less effectively than statistical or distance-based approaches.
+
+Speed trap camera → detect cars that pass speed limits
+mom cheering anim → mom will discard bad ones, which is outliers
+etc store","AI agent may detect outliers more effectively in the case of collective outliers because by statistical or distance-based approaches, outliers are determined by number of neighbours, and as collective outliers usually stick together/near each other, statistical or distance-based approach count may mistake it as inliers."
+35,"An example of outlier detection would be from data cleansing. We can use this outlier detection to distinguish random, or inappropriate error that we want to avoid. The phenomenon might generated by some different mechanism. For example, there is innovative error in two all expected data.
+
+",AI agent could be more effect to detect outlier because statistical method might be limited if data does not actually fit the assumed distribution. Meanwhile distance-based can be computationally expensive due to some distance calculation.
+36,"Many examples are around us: Plagiarism detector, game cheating/bot detector, AI slop detector, etc...
+Where a category which needs security/honesty/integrity outlier detector can be used.
+
+
+","It's up to AI agent's status. The more training data was given, the better result.
+However, there is always an attempt to bypass the detector, the model must be updated frequently."
+38,"Think of real-world examples of outlier detection.
+→ I think outlier detection can use to make weapons.
+  In this case, outlier is person. by using CV, weapon drones are using outlier detection.
+→ Also outlier detection is used to detect the stock price soared or plummeted.
+","AI agents are based to train by are trained by statistical or distance-based approaches.
+Apart AI agents are written by [crossed out]. However, as AI agents are capable of using more diverse data to clearly and effectively perform detection tasks, they can handle outliers by applying more appropriate detection methods, thereby achieving a higher degree of accuracy in their detection processes."
+40,NULL,"I think it depends on the complexity of detect the data. For example for detecting outlier in the simple data like data entry error or typo in values. Statistical or distance-based approaches is more better, cheaper and reliable. But, for a complex data sets or pattern like fraudulent transaction, money scanning or advanced scamming. AI agent seems to be more effective even though it would need massive amount of data and money to be used."
+41,"Outliers can be view as both positive and negative things based on the perspective. Raising temperature can be view as a noise/error or indicating a global warming. This is not really a good subject to write since it is controversial and sensitive interaction. But I will just write it here. Since old ages, people have been doing outlier detection. For example, during the 80s, people burn abnormal people as witches since they are afraid and think of them as a cluster of outlier. Even more controversial one is that since pwa great great ... great ancestors, they will have a strange feeling when someone has different culture, skin tone, language and so on. These days, this term is called racism. In a way, racism is a form of real and sensitive information. People have been doing consciously and/or unconsciously. Think about it for a minute. Humanity has built in outlier detection and they can spot them easily.
+
+","I might be wrong but I think at first, AI is good at distance-based since most of them are calculations.
+But now that AI has improve a lot and there are a lot of good truth labels to train, currently statistical based is getting better and better each day. Like AI might not be able to find Waldo but now I believe they can."
+42,"A real world example of outlier detection can be found in daily health tracking data. For example, a smartwatch or phone app may [crossed out] record a person's number of steps each day. If someone usually walks around 8000 steps a day, but suddenly shows 7000 steps in one day, that value could be considered as an outlier.
+It may reflect an unusual event such as a long trip or exercise session, or it may also come from a recording error. This shows that outlier detection can be useful even in simple everyday situations.","In my opinion, an AI agent such as Claude may be helpful for interpreting outliers and explaining why they seem unusual, especially when context is important. However, statistical or distance - based approaches are usually more effective for actually detecting outliers in a consistent and scalable way. These methods are clear numerical criteria, which makes them more reliable for large datasets. Therefore, I think AI agents are better used as supportive tools while statistical or distance based methods remain more suitable for core outlier-detection tasks."
+43,"The real world examples of outlier detection include credit card fraud detection (unusual transaction/unnormally high price), industrial inspection (defective items must be identified), etc. These examples show that outlier detection is important in many areas, especially finance, manufacturing (I think/it can be used in healthcare or security areas, but don't come up with some examples)  intrusively
+","I think whether an AI agent could identify outliers more effectively than statistical or distance based depends on problem. In structural data with clear numerical behavior, statistical or distance-based methods are often more reliable.
+
+However, when the data are high-dimensional, unstructured, or heavily contextual,
+AI agent can be more efficient. In images, videos, or long time series [crossed out] AI agent provides explanation why it is an outlier.
+In addition, anomalies may not be visible through simple distance or distribution methods.
+A defective surface often requires understanding pattern, semantics, [crossed out] or temporal structure. AI models are stronger in such cases because it can learn more complex representations and capture subtle relationships that statistical or distance-based methods may miss."
+44,NULL,"When a stock's trading volume spikes 10 times in minutes, classical methods struggle.
+Statistical methods: rely on fixed historical averages but market commonly constantly shifts with earnings seasons and macro events → unreliable.
+Distance-based method: only judges whether a single data point is isolated from its neighbours.
+AI agents: by contrast, cross-reference volume, price, options flow, news sentiment and account history all at once. It distinguishes a legitimate high-volume event from a genuinely suspicious one.
+
+Classical methods detect something unusual, but AI agents detect something suspicious.
+→ AI is more effective."
+45,NULL,"I think Agentic AI's can be identify outliers more efficiently than previous approaches with good enough prompting.
+I think AI can cover possible previous approaches.
+Also, since detecting outliers doesn't have clear definition, the ambiguities and unexplainable human thoughts can be better expressed by AI than previous approaches.
+AI's can have the probability of manipulating human intuition in a way."
+46,"If most payments are made only domestically, but a payment is suddenly made from overseas, credit card companies will treat this as an outlier and send a notification to the cardholder, and in the case of a large amount, they may even take measures such as suspending the card.","When detecting things like spam mail, statistical or distance-based models can identify a large number of links, specific words, and patterns to determine if it is spam, but AI agents will be much better at uncovering hidden intentions or context. For basic data such as numerical data, existing methods may be better at detection than agents."

@@ -1,0 +1,254 @@
+No.,"Q1 (Think about a real-world scenario where pattern mining can be applied to. What is a possible example of a transaction, an itemset, a frequent itemset and an association rule?
+","Q2 (What can be other criteria (In addition to support & confidence) to find ""interesting pattern""?"
+1,"example translation is Query keyword on the Internet browser. Request itemset are the related suggested searches. For example, python tutorial, pandas dataframe (coding).
+Association rule is python tutorial -> pandas, python -> dataframe when seen in many platform. Therefore, the interest expire suggest 'dataframe' when we search for 'python tutorial'!",NULL
+2,NULL,"We can use LIFT criteria.
+LIFT solves by mitigating the correlation between being random and being an actual pattern by include both the union of the two variables S(A U B) and probability of the two variables S(A) x S(B)."
+3,"
+- Combining the data set of people purchasing things in a shop and data set of different kinds of shop. For instance, a family may have a tendency to buy some new stationeries for their children during school semester start at a stationery shop. However, the same family may also have a tendency to buy new clothes, or shoes with the same reason. The concept is the same but it's applied on another level above the data set. This scenario can be applied on shopping mall, book festival, or even ad suggestion @ online retailer layout.","
+- seasonal events
+- location's proximity
+- target audience
+- quantity"
+4,"Many web-novel platforms like 'Kakao page' or 'RIDI' label their novels by keyword (tag).
+In this case, an individual novel's ID and its keyword set can be considered as TID and itemset from the Market basket analysis in today's class.","According to my personal experience, 'Independence' was a valuable criteria. For example, in the web novel market, there are genres like 'Modern Fantasy' or 'Romantic Fantasy'. They are hybrid genres. So the question arises that ""Is Modern Fantasy the same with 'Modern' and 'Fantasy'?"""
+5,"natural language processing. Every conversation can be considered as a transaction. Every combination of words can be considered as an itemset. and the frequent sets of words are the frequent itemset. and the relation between words can be considered as an association rule. For instance, we can investigate about the frequent words used and their relationships, and we can compare if there is a difference between nations. For example, Koreans uses words such as '아이', '근데', frequently, and also combines them as '아이근데', maybe there could be some relationships and one could have a influence on another.","- One criteria is to investigate the start and end. If there is a sequence. By including those condition, we can know more information than just knowing the support by counting everything. By applying this method, we can change the scope of the investigation and can get more interesting patterns."
+7,"The log of game item purchasement.
+^transaction
+For example, a lot of companies make some item combinations cheaper when users buy items separately. itemset This is because companies know users make purchase those items together","we can use an outlier. I think when specific patterns appears it would show us unusual data. So, if we discover some outlier it can tell us some rules or patterns"
+10,"
+In course enrollment system, the records of all the courses that student in a specific department enrolled. We can consider [department, grade, course1, course2, …] as a transaction. Then frequent itemsets could be like, {Data Science, Algorithm, Computer Programming}, {Freshman, Academic English, Statistics}, ... etc.", we can group the items and observe the relationships between groups of within group.
+11,"
+In game industry, pattern mining can be used to detect bot (autopilot) detection. A company can collect player's action data. In this dataset, bots will show abnormal action patterns.
+Train the model with previous bot examples, and detect suspicious players.","
+We don't have to focus on common/main patterns. Sometimes we have to find rare patterns (which can be critical)
+Unexpected patterns can be the chance of business"
+12,"In supermarket, a transaction can be a customer's purchase containing items like bread, milk, juice, and eggs. An itemset is a group of items bought together, such as {milk, bread}. An frequent itemset is one that often appears across many transactions, for example {milk, eggs}. An association rule could be: if customers buy {milk, eggs}, they are likely to buy eggs as well.","Another useful criterion in ""confidence improvement"" which measures how much the confidence of a rule increase compared to related simpler rules. It helps identify whether adding more items to a rule actually provides new and meaningful information rather than redundant patterns."
+13,"
+Can be applied in discerning what courses students frequently register for during course registration in order to know the demand and what courses are usually taken in the same semester.
+Possible example of a transaction, an itemset, a frequent itemset and an association rule.
+
+| TID | Courses taken together |
+| 1   | Data Science, Machine Learning, Database |
+| 2   | Data Science, Database |
+| 3   | Data Science, OS |
+
+1- Itemsets: {DS, ML, DB, OS}
+2- Itemset: {DS, ML}, {DS, DB}, {DS, OS}
+Frequent Itemset: {DS, DB}, 2/3
+
+Association rule: Taking DS may lead to taking DB","
+Lift to see if two courses are independent or are entirely correlated."
+14,"A single customer's purchase during one visit to the online store. For example, Transaction 1: {Laptop, Mouse, USB drive}.
+Itemset:
+Any subset of items that can be bought together. ex: {Laptop, Mouse}
+Frequent Itemset:
+An itemset that appears in many transactions. e.g., {Laptop, Mouse} appears in 30% of transactions.
+Association rule:
+A rule derived from frequent itemsets, such as {Laptop} → {Mouse}, meaning customers who buy a laptop also tend to buy a mouse.","Conviction: measures the degree of implication of the rule (how dependent the occurrence of Y is on X.
+
+Novelty: indicates how new or unexpected the pattern is."
+16,"
+↳ Maybe E-Commerce can apply this way.
+When users use a specific product, the recommender system applies association rule mining to identify other items that form a frequent itemset with high 'S' and 'C' values.
+
+•","
+↳ Shifting our perspective, How about considering the probability of Y not occurring given that X has occurred.
+
+If we prune these edges, we can only have high-relative edges."
+17,"
+
+A. Years and movies. Frequent itemsets can be commonly seen popular movies. Association rules can be that movie genres other user's purchase or experience of movies in that if two different genres occur at the same time, the two might have some rules related.","
+A. Maybe comparing the similarity between items can help with deciding meaningful, meaningless patterns. For example, with a high support and confidence between item also with a high similarity can justify the results, or reversely, if their similarity is low, that might be the more interesting pattern."
+18,"
+- transaction: E-commerce platform
+- An itemset: Shoes, Albums, Groceries, Baby foods, Clothes,...
+- Frequent itemset: {Shoes, Clothes}, {Groceries, Baby foods}
+- An association rule: if someone purchases 'Baby foods', he/she will purchase 'Groceries' as well.","
+- We can use top-k or top-p to reduce computation complexity.
+- Or we can analyze the attributes of items.
+- Or we can stalk the history of users what they are interested in."
+19,"An online shopping platform analyzes order history to find purchasing patterns.
+Transaction: A single customer's order, one complete purchase event.
+Itemset: Any subset of items we close to examine.
+Frequent Itemset: itemset support ≥ minimum threshold.
+Suggest itemset: Netflix analyzes viewing history to find patterns in what users watch together.","- Lift: measures if A and B are truly correlated, or just co-occurring by chance.
+- Conviction: measures how often the rule is wrong, how much it depends on B."
+20,"In my experience there are many cases where pattern mining can be applied to, but the first thing that comes to mind is coupang. Based on recently seen or purchased items it suggests new items to the user. For example, a user buys {protein powder, creatine, eggs} or {banana, milk, eggs}.
+From this we can find that {protein powder, eggs} are the most frequent it can suggest {eggs, protein powder, resistance bands, energy drinks} when someone buys eggs according to the association rule. It can also suggest new items to a user. For example, suggest {resistance bands} or {energy drink} which in turn will increase associated things and profit sales and profit.",NULL
+21,"pattern mining might be useful not only for human interactions but also creature interactions as well. for example, various ""local ecosystem"" can be transaction. Itemset could involve creatures of that local area. we could analyze which creatures tend to happen together. etc. this might be useful for biodiversity conservation.",NULL
+23,A supermarket analyzes millions of transactions to discover purchasing patterns.,Lift score
+24,"pattern mining example
+supermarket → transaction
+   itemset
+   freq. itemset
+   association rule","in addition, novelty can be an interesting pattern (is pattern new or already known?)"
+25,"Best/Top
+- watching history
+- A folder of watched shows (podcasts)
+- Podcasts that people watch together
+(Not bro, Pop culture)
+- Algorithm
+Ex: Not bro is often watched with Moana","Engagement
+Usually, when you watch video on YT ""in most viewed parts"" you can't see, based on that, predict future trends.
+→ most reviewed is part about new movie → rise in movie engagement → recommendation"
+26,"
+I think in aviation. That is a recent monitorings trends can be treated like a template, for example person A wants to discover europe countries, hence it will start from Paris → Italy → UK and others. It then if the airlines can discover the pattern, they could applied it into marketing strategy and sales strategy to gain the most of profits.
+- transaction: europe
+itemset: south europe, north europe
+frequent: {UK, France}, {Italy, Hungary, France}
+Itemset
+association 70%
+base",NULL
+27,"The patient's medical record built of their symptoms. for example, anyone who got @ teen might (highly) cause it as well","• In addition of support or confidence, we can check the correlation whether the itemset has relation or not. So it can help to differentiate real relation rather than just a coincidence."
+28,"I think pattern mining can be use in data mining
+For example, think of a game where we want to find unreleased contents, upcoming contents.
+We can have data from data mining file (file name date of creation, file type, related directory and so on. Let's focus on three itemset {file type, date of creation, related directory}. By finding on these items, we can come up with an association rule to determine content type → unrelease, in-use, upcoming which can satisfied our target.","In addition to sup or conf, I think there are many ""interesting pattern"" but I am really not sure they are useful. For example, Noise → collect data cannot be always perfect, by looking at noise pattern, we can pinpoint origin of noise and eliminate them. Or we can use noise to determine whether the data is reliable, accurate and ready to use or not.
+Other interesting pattern could be determining a threshold point. For example, movie A 'box office' money is $10000. We can split the hair B = $7000 and C = $1000. We can say a lot of money by saying A is the most popular and make a lot of money than other two. But by determining a threshold of $5000, we can"
+30,"Real-world example where pattern mining can be applied :
+It can be applied to almost any real world problem to answer some question given a database. For example, today a pattern finds a similar that being a combination/set of transaction could be a list of ""illnesses"". An item set being which illnesses are found to come together and possibly come in causality, in those sheltered animals together. There are other examples, like going out loose depending in various frequent attributes, in hawking, Mental Skills, crimes committed, etc.","
+Aside from support and confidence, maybe there can be a frequent pattern of items never being together.
+Or something the weight of context of whatever scenario, aside from blunt statistics, of some sense that came up together?"
+31,"KPOP merchandise selling.
+Item set: album, lightstick, photocard, keychain
+frequent item set: {album+photocard}, {album+lightstick}, {photocard+lightstick}
+association rule: if A then B, if people buy album, usually they also buy photocard","i think maybe leverage like the coverage for large scale to find an interesting pattern, this so that the pattern will be useful for large scale use like business."
+32,"Online food delivery
+Transaction: {burger, fries, milks} → Order of one customer
+Itemset: {fries, milks} → Set of meal
+Frequent Itemset: {burger, fries} → Frequent order by customers
+Association Rule: {burger} → {fries}
+→ If customers order a burger, they likely to order fries.",Correlation. correlation can be useful to determine whether items are truly related positively or negatively. This can avoid misleading patterns than occur simply because items are common.
+33,"Pattern mining can be applied to a streaming service like Netflix. In this case, a transaction can be one user's viewing history over a certain period of time. An itemset is a frequent itemset is a combination of contents that appears often a cross many users' viewing histories. For example, if many users watch both a crime drama and a detective movie, the combination can be considered a frequent itemset. An association rule could be {Crime Drama A} → {Detective Mark B}, meaning data users who watch Crime Drama A are also likely to watch Detective Movie B.","Lift, because it shows whether two contents are related more strongly than expected by chance. Another useful criterion is unexpectedness, since a surprising pattern can be more interesting than an obvious one. Actuality is also important, because a portion is more valuable if it can actually help improve recommendations or user experience."
+34,"→ I think pattern mining could also be applied to music streaming application. The transactions in this example would be playlists created by the user and items would be songs/artists. It can discover the listener's music taste through this method. The frequent itemset in this case would be as an example, through millions of pop music playlist, Rihanna and Ariana Grande was mostly found grouped together and appear atleast 17% margin (10K playlist).","Consistency. If looking the example music above, does certain songs played over the same no. of times throughout the whole year or not. The answer can determine some pattern in listener's consistency."
+35,"
+→ Personally, I think ""MEDICAL DIAGNOSIS"" is a (lipsh)
+applies pattern mining tools to find dataset of patient AND doctor
+e.g.: Patients with high blood pressure AND diabetes are frequently also diagnosed with kidney disease.
+→ ""Web/log Analysis"" → Many user frequent navigation flow
+Eg.: users who visit homepage → product page → reviews usually opted to checkout page.","
+→ Some researchers uses ""leverage"" such that
+""leverage"" = leverage(A,B) = s(A∪B) – s(A) x s(B)
+↳ measure how often A and B co-occur than expected if they were independent.
+→ different with lift as it implement absolute ratio
+>0 → independent (positively correlated)
+<0 → negatively correlated
+→ some also use ""conviction""
+""conviction"" = conviction (A→B) = (1 – s(B))/(1 – c(A→B))
+↳ measure how often the rule makes an incorrect prediction. High conviction = rule is rarely wrong.
+→ sensitive to direction of rule"
+39,"
+YouTube video recommendation
+
+UX aspect.
+From the UX perspective, it would also be helpful to society.",NULL
+40,"food delivery apps. For example of the customer wanted to order fast food example for transaction is customer's frequent itemset.
+The itemset, {burger, fries, coke} & frequent itemset is {burger, fries}. As people always order burger and fries as a set Association rule, people that usually order burger will also likely order fries. This is because it usually comes in set and the price will be lower than buying it as a la carte.","Check whether the pattern is consistent and trustworthy. Some pattern might look related but it might be appear by chance. Some pattern might look stark but actually random noise.
+For example during promotion it might show that burger may not be purchase together more with another dessert. This is not reliable as if only happen during promotion not all time."
+41,"Netflix recommendation.
+Transaction: { Avengers, Spiderman, Iron man }
+Item set: { Avengers, Spiderman, Iron man }
+Frequent Itemset: { Marvel movies }
+Association rule:
+{if X exists → 4 is} {Avengers} → {Iron man}
+                  {Avengers} → {Spider man}
+likely to obtain.","Lift by measuring how much stronger the rule is than random chance.
+lift = (A→B)/(s(B))
+lift(A→B) = c(A→B)/s(B)
+lift = 1 → no relationship
+lift > 1 → positive correlation ✓
+lift < 1 → negative correlation
+
+→ measuring lift can help us make more appropriate decisions"
+42,"finding fraud transactions for banking system. The transaction can be the website, or terminal made the transaction. The transaction can be ""website terminal time"", a transaction is where a transaction is made such as {company, ip = z} and if suddenly there's a weird transaction or itemset appear with suspicious amount, that can be a candidate for fraud.","History. We can learn about someone's behaviour through their history. same goes to finding ""interesting pattern"" in pattern mining. We can analyze the past history of transactions made to find the ""more likely"" pattern, as it can show a certain behaviour. If an item has a history of being purchased many times, it is most likely will be purchased again in the future."
+43,"Student course registration.
+Exp: Transaction = {DS, ML, AI, DL, CN}
+Itemset = {DS}, {ML}, {AI}, {CN}
+Frequent itemset = {DS, ML}:2, {CN, DL}:1
+association rule = {AI} → {ML}","Correlation. A part from that, frequent (costly value of information CVoI)"
+44,"
+It is a restaurant, for example, Meal Plan B.
+The transaction is burrito, fries and soda. Itemset {a Burrito, fries}, {burrito, soda}. a frequent itemset could be {burrito, fries} as it is a popular item. Association rule is we can say that if a customer buy a burrito, then they will buy fries → {Burrito} → {fries}","Relatability, a pattern need to be relatable for it to be functional, it could be inherently pattern but if it's not relatable to tools (in things) we are studying it could be coincidence"
+45,"
+I think that adidas Jimmer's selling data is applied to pattern-mining shoppers must be bought items they need. for example, like David, hank Burch, Many people are students living near. so, they buy writing equipment and household items intensity. Those characteristics could be shared by one Category. It makes will make a Jiao Increase the efficiency of sub-categories and a hike in sales. It must be very useful to create a new category specialized to subsets that are different from the existing categories.",NULL
+46,"In youtube, I think one of example that pattern mining is applied to is Netflix/Youtube food videos recommendation. Transactions might be the genre of the movies such as {comedy, horror, romantic, fantasy ...}. Itemset might be the most and old genre. People who loves crime genre might be interested in horror, (mystery, ...) {horror, crime}.","In addition to support and consistency, ∅∅ we should consider ""how much MORE often X and Y occur together than expected"" to strengthen the relationship together. If the leverage more to (positive) it might be interesting,
+(independent) and ∅ (negative) is maybe happen less than expected?.
+[circle annotation: in coincidence only.]
+[circle annotation: might NOT real relationship/anytype]"
+48,"I think market basket analysis can be a real world example. I learned this case in other class, so I can explain it well.
+A transaction is a customer's purchase, (ex. {milk, bread, juice}).
+An itemset is any set of items such as {milk, bread}
+A frequent itemset is an itemset that appears often enough to satisfy the minimum support threshold.
+Lastly, an association rule is a relationship like {milk → bread}, which means a customer who buys milk also tend to buy bread.","Novelty
+If a pattern has support and Confidence (also lift), it's hard to consider it as an interesting pattern without novelty.
+In other words, the pattern fees is interesting only when it provides non-obvious insight rather than something already expected. It is briefly mentioned in class, but I think it's most important - anything to find interesting pattern. It can't be insight that's interesting, meaningful, and new. For example, a product is included in all transactions."
+49,"
+For telecom companies, they need to make promotions based on user needs. If correlation between two or more services are found, they can combine these services and market them. Also they may analyze leaving customers' patterns to prevent any loss of users.","
+Distances between transactions may be helpful to find interesting patterns. Even if confident association rules are not found in the whole table, if clustered by distances (cosine, ucld, etc.) there may be strong association rules inside those clusters.
+For detecting unexpected threats, finding outliers is important. Finding transactions that contains lots of unique itemsets may be helpful."
+51,NULL,"Beyond Support and Confidence, Lift is another key metric for analyzing patterns.
+
+Lift(A⟹B)= Support(B) / Confidence(A⟹B)
+​
+ 
+Lift > 1: Positive correlation (The probability of A and B occurring together is higher than by chance).
+
+Lift = 1: Independent (The occurrence of A does not influence the occurrence of B).
+
+Lift < 1: Negative correlation (The probability of A and B occurring together is lower than by chance)."
+53,"I think pattern mining in real life can be represented by how a supermarket manages their product stock. For example, checking their market built selling each item method. so that they can use the associate rule to know which items related to each other and then put those item near to each other so customer can easily access them.","In my opinion other criteria that helps to find pattern is like special season or festival. In my case, in Malaysia during festive person the buying transaction of food products increase, especially food ingredient to make traditional food. In korea, maybe like buy buy people the buying of tteok increase during their public holiday. Sorry IM mistaken, other examples: pepero day, valentine, white day."
+54,"Analyzing user's search keyword can be done by pattern matching. Since user's interest tends to search relevant keywords, We can identify the relationships between keywords. Using this, we can help recommendation algorithm and provide users to interesting in-service contents (etc. tagging) sometimes they see relevant and can recommend 'JavaScript' to 'Java function' then we can (automatically suggest related learning paths or documentation to guide the user toward their goal.)","When we use both the words and respect the goal as their using, we can find all groups in Notion. Then if we can consider their distance and cluster them to dad standard groups, we can provide more concrete analysis."
+55,"A real world scenario where data mining can be applied to is with Netflix and the user's watch history. The user history to find patterns. Then a item set, we will catch a certain series. Thus.itern could be the user's watch history in a certain number of days as {군대들이, 어쩌피르, 가차 워이, etc.} Frequent itemset would be the combination of series that many people watch as {군대들이} → {군대마다 2} if the use is watch Squid Game 1.
+Association Rule in this case might be {군대마다 1} → {군대마다 2} if the user is watch Squid Game 1.","Maybe trying to find unexpected situations could be another criteria to find unexpected things. Like big disused in class, disuse and less luxury bag personally unexpected, and this lead to an ""interesting pattern"" so it could also be a criteria to find unexpected of in the data and relationship can also be a criteria to find ""interesting pattern"" from data."
+56,"I think a real world scenario is when deciding the next combination of game genre. It (transaction).
+Transaction: a single instance of game of either each/used target
+example: T1 {RPG, open world, anime}
+T2 {sport, basketball, school, rpg}
+T3 {accessibility, opensource, romance, science, romantic}
+
+Itemset: { rpg } { romance } { science } { rougelike }
+{ accessibility } { simulation }
+
+Freq. itemset: min sup = 40%
+Association Rule: maybe we can say it a pattern with rougelike is {decision making}
+Then they inform a 4 {decision making}
+In this case 6 (rougelike → decision making) > 70%.",NULL
+58,"I'm interested in games. So I can apply pattern mining to Steam, a game distribution platform.
+transaction (Steam wishlist)
+- A (eternity ✗ rule of rain, Tekken 7)
+- B (eternity ✗ rule of rain)
+- C (miked, Elden Ring)
+- D (eternity, Tekken 7)
+
+Itemset
+- (eternity, rule of rain)
+- (eternity, Tekken 7)
+Frequent itemset
+- (eternity, rule of rain)
+- (eternity, Tekken)
+We can see if someone has eternity in their wish list, they are likely to also have rule of rain in their wish list. It's association rule.",Things users' gender and age group can also be other for finding interesting patterns.
+59,"A real world scenario when pattern mining applied to.
+The transferring system could be applied to a pattern mining. Targeting a specific bus or a station + subway system has massive data enough to satisfy some methods. By figuring the patterns out, we can find some demands on specific public transportation to lengthen or extra short cut to (citizen) is needed below.
++extra explanation","What can be other criteria to find ""interesting pattern""
+We may conduct a Medball ratio test on each events, where Hi: each events are independent. Because I think the ""Interestingly"" means something unexpected. By Conducting this test about the Jim Hi above and Ho being rejected. We can find unexpected relation that can more some profit
+→ If the sample is large enough, We can also conduct a Pearson's Chi-squared test too.
+
+*1-1.
+Transaction: a sequence set of sequences that each of them contains public transportations which a person took for a one-way trip.
+Itemset: {bus1, bus114, bus 9114}, {bus 6, bus 1407}, {bus 6, bus 24}
+Frequent Set: {bus 6, bus 114, bus 9114}, {bus 6, bus 23}
+Association Rule: P-value (journal y test) <0.01"
+60,"A real-world scenario where pattern mining can be applied to. (Possible Example)
+Transaction: Search Engines in Social Medias / Applications
+Itemset: Names of Artists, TV Programmes, Advertising Products
+Frequent itemset: Recent Popular TV Programmes (for Examples: Single Inferno 5), Names, Products
+Association Rule: Artists' name → TV Programmes/
+                 TV Programmes → Artists' name/
+                 Artists' name → Artists' name/
+                 TV Programmes → Advertising Products.
+In my opinion to find ""interesting patterns"" we sometimes have to learn the semantic meanings of items in datasets. It is because in languages there are some words with different meanings. it might be confusing if we only look at frequent that referred to.
+Without knowing what the items exactly are referred to.",NULL
+61,"Sales → If a business sells a lot of goods but less sales for every type of goods are different, may might want to use pattern mining to see which goods to increase or decrease production.
+This can help save a lot of budget too.
+→ Some Tech components like Apple usually have a discounts for students in which if you buy a Macbook, you will get an Airpod or have a fixed price. I want it takes pattern mining to see what parts items do students usually purchase together before deciding the offer efficiently.","Type of data → when buying products, customers tend to buy products that they need for a specific goal. Let's say a customer's goal is to bake a cake, it they are purchasing flour, they might also purchase baking soda, brown sugar, vanilla essence etc."
+62,"the selling of goods at a department store. During sale time, store can analyze transactions made by customers. an itemset would be the item that they bought, such as milk. A frequent itemset can be an item that is frequently bought by all customers during that timeframe such as strawberries during its harvest season. An example of association rule is that many customers who buy stamps also bought conditioner. This suggests a strong relationship between these products and people tend to buy them together.","Other criteria to find interesting pattern is leverage. This measures the difference between observed and expected co-occurrences, which focuses on actual impact and not just rotter. Two rules can have the same lift, but one affects way more transactions which causes it to be more useful."
