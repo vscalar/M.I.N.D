@@ -1,5 +1,4 @@
-No.,"Q1 (Think about a real-world scenario where pattern mining can be applied to. What is a possible example of a transaction, an itemset, a frequent itemset and an association rule?
-","Q2 (What can be other criteria (In addition to support & confidence) to find ""interesting pattern""?"
+No.,Q1,Q2
 1,"example translation is Query keyword on the Internet browser. Request itemset are the related suggested searches. For example, python tutorial, pandas dataframe (coding).
 Association rule is python tutorial -> pandas, python -> dataframe when seen in many platform. Therefore, the interest expire suggest 'dataframe' when we search for 'python tutorial'!",NULL
 2,NULL,"We can use LIFT criteria.
