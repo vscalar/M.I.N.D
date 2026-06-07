@@ -1,0 +1,96 @@
+
+=== Q2: Top Frequent Words ===
+data               : 132
+ai                 :  94
+agent              :  50
+when               :  45
+need               :  45
+we                 :  42
+might              :  28
+preprocessing      :  27
+understanding      :  26
+using              :  25
+attention          :  20
+not                :  19
+agents             :  18
+should             :  17
+may                :  16
+think              :  15
+values             :  14
+analysis           :  12
+important          :  12
+use                :  11
+understand         :  11
+context            :  11
+results            :  11
+extra              :  11
+more               :  10
+some               :  10
+even               :   9
+wrong              :   9
+but                :   9
+proper             :   8
+
+=== Q2: Top Unique Words (TF-IDF) ===
+data                 : 0.0778
+ai                   : 0.0614
+need                 : 0.0450
+agent                : 0.0421
+when                 : 0.0394
+might                : 0.0369
+we                   : 0.0364
+preprocessing        : 0.0341
+using                : 0.0296
+agents               : 0.0295
+context              : 0.0239
+understanding        : 0.0239
+not                  : 0.0233
+may                  : 0.0211
+should               : 0.0205
+understand           : 0.0203
+steps                : 0.0199
+think                : 0.0191
+values               : 0.0190
+attention            : 0.0187
+results              : 0.0186
+proper               : 0.0185
+wrong                : 0.0177
+tasks                : 0.0165
+analysis             : 0.0164
+use                  : 0.0161
+errors               : 0.0160
+careful              : 0.0159
+important            : 0.0159
+quality              : 0.0156
+
+=== Q2: Top 2-Gram Pairs (with Stop Words) ===
+ai agent                  :  36
+the data                  :  35
+need to                   :  31
+when using                :  21
+using ai                  :  20
+for data                  :  20
+to be                     :  16
+ai agents                 :  15
+the ai                    :  15
+we need                   :  14
+data understanding        :  13
+the agent                 :  12
+i think                   :  12
+should be                 :  11
+agent for                 :  10
+extra attention           :  10
+it is                     :  10
+understand the            :   9
+can be                    :   9
+agent might               :   8
+in the                    :   7
+ai might                  :   7
+attention when            :   6
+about data                :   6
+data preprocessing        :   6
+of the                    :   6
+might not                 :   6
+understanding and         :   6
+and preprocessing         :   6
+an ai                     :   6

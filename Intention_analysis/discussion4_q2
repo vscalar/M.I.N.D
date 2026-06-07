@@ -1,0 +1,96 @@
+
+=== Q2: Top Frequent Words ===
+clustering         :  78
+data               :  61
+based              :  40
+we                 :  38
+graph              :  27
+clusters           :  24
+approaches         :  21
+grid               :  21
+other              :  20
+cluster            :  19
+distance           :  19
+think              :  17
+into               :  15
+use                :  15
+methods            :  14
+points             :  13
+which              :  13
+density            :  12
+like               :  11
+maybe              :  11
+method             :  10
+space              :  10
+then               :  10
+may                :   9
+where              :   9
+one                :   9
+different          :   8
+two                :   8
+same               :   8
+similarity         :   8
+
+=== Q2: Top Unique Words (TF-IDF) ===
+clustering           : 0.0749
+based                : 0.0629
+graph                : 0.0546
+data                 : 0.0472
+we                   : 0.0453
+clusters             : 0.0352
+think                : 0.0346
+grid                 : 0.0323
+other                : 0.0303
+approaches           : 0.0272
+cluster              : 0.0268
+like                 : 0.0261
+which                : 0.0257
+use                  : 0.0247
+hierarchical         : 0.0234
+distance             : 0.0233
+similarity           : 0.0221
+maybe                : 0.0201
+method               : 0.0195
+approach             : 0.0187
+space                : 0.0185
+tree                 : 0.0180
+points               : 0.0177
+point                : 0.0173
+into                 : 0.0172
+then                 : 0.0171
+methods              : 0.0171
+density              : 0.0167
+connectivity         : 0.0158
+similar              : 0.0154
+
+=== Q2: Top 2-Gram Pairs (with Stop Words) ===
+we can                    :  17
+based clustering          :  17
+the data                  :  16
+can be                    :  12
+grid based                :  11
+other approaches          :  10
+i think                   :  10
+graph based               :  10
+data points               :  10
+for clustering            :   9
+distance density          :   9
+based on                  :   8
+of the                    :   8
+of data                   :   7
+as a                      :   7
+there is                  :   6
+that we                   :   6
+a graph                   :   6
+the graph                 :   6
+in the                    :   6
+space into                :   6
+for example               :   5
+may be                    :   5
+think of                  :   5
+it is                     :   5
+into the                  :   5
+can use                   :   5
+other clustering          :   5
+hierarchical clustering   :   5
+on the                    :   5

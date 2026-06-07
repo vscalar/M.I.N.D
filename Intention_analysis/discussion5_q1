@@ -1,0 +1,95 @@
+=== Q1: Top Frequent Words ===
+outlier            :  33
+detection          :  30
+ai                 :  13
+real               :  11
+detecting          :  10
+outliers           :  10
+world              :  10
+data               :   9
+examples           :   9
+example            :   8
+more               :   8
+card               :   8
+they               :   8
+credit             :   7
+agents             :   7
+we                 :   6
+like               :   6
+based              :   6
+from               :   6
+fraud              :   6
+unusual            :   6
+used               :   6
+think              :   6
+detect             :   5
+distance           :   5
+abnormal           :   5
+manufacturing      :   5
+since              :   5
+but                :   5
+someone            :   4
+
+=== Q1: Top Unique Words (TF-IDF) ===
+detection            : 0.0555
+outlier              : 0.0514
+detecting            : 0.0281
+we                   : 0.0225
+unusual              : 0.0215
+ai                   : 0.0210
+manufacturing        : 0.0204
+fraud                : 0.0203
+healthcare           : 0.0188
+example              : 0.0180
+test                 : 0.0175
+data                 : 0.0175
+used                 : 0.0175
+examples             : 0.0174
+outliers             : 0.0171
+world                : 0.0170
+transactions         : 0.0170
+sensor               : 0.0167
+detector             : 0.0166
+card                 : 0.0165
+amount               : 0.0164
+real                 : 0.0161
+more                 : 0.0152
+from                 : 0.0150
+cybersecurity        : 0.0150
+100                  : 0.0150
+credit               : 0.0144
+commerce             : 0.0143
+appears              : 0.0143
+exceeds              : 0.0143
+
+=== Q1: Top 2-Gram Pairs (with Stop Words) ===
+outlier detection         :  24
+can be                    :  12
+of outlier                :  10
+real world                :   9
+credit card               :   7
+ai agents                 :   7
+world examples            :   6
+detection is              :   5
+examples of               :   5
+it is                     :   5
+detection can             :   5
+example of                :   4
+of the                    :   4
+distance based            :   4
+fraud detection           :   4
+such as                   :   4
+card fraud                :   4
+is a                      :   4
+as an                     :   4
+an outlier                :   4
+there is                  :   3
+to detect                 :   3
+could be                  :   3
+detection include         :   3
+we can                    :   3
+in the                    :   3
+can perform               :   3
+detecting outliers        :   3
+e g                       :   3
+they can                  :   3

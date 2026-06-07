@@ -1,0 +1,95 @@
+=== Q1: Top Frequent Words ===
+data               : 122
+interesting        :  56
+most               :  36
+was                :  34
+learned            :  33
+how                :  29
+today              :  28
+different          :  27
+preprocessing      :  25
+found              :  24
+visualization      :  23
+thing              :  22
+analysis           :  21
+types              :  19
+we                 :  18
+important          :  16
+concepts           :  15
+but                :  13
+missing            :  12
+more               :  12
+think              :  12
+understand         :  11
+very               :  11
+understanding      :  10
+ai                 :  10
+step               :  10
+like               :  10
+when               :   9
+learn              :   9
+related            :   8
+
+=== Q1: Top Unique Words (TF-IDF) ===
+data                 : 0.0906
+interesting          : 0.0515
+was                  : 0.0450
+visualization        : 0.0439
+different            : 0.0432
+how                  : 0.0414
+most                 : 0.0390
+found                : 0.0372
+learned              : 0.0364
+preprocessing        : 0.0340
+types                : 0.0339
+analysis             : 0.0330
+concepts             : 0.0297
+today                : 0.0265
+thing                : 0.0251
+understanding        : 0.0214
+important            : 0.0212
+we                   : 0.0201
+missing              : 0.0200
+think                : 0.0190
+methods              : 0.0184
+reduction            : 0.0184
+understand           : 0.0183
+but                  : 0.0174
+dimensionality       : 0.0166
+more                 : 0.0165
+ai                   : 0.0161
+learn                : 0.0159
+techniques           : 0.0156
+very                 : 0.0155
+
+=== Q1: Top 2-Gram Pairs (with Stop Words) ===
+most interesting          :  31
+the most                  :  28
+interesting thing         :  22
+i learned                 :  20
+found it                  :  14
+the data                  :  14
+learned today             :  13
+of data                   :  13
+learned about             :  12
+it is                     :  12
+today is                  :  12
+can be                    :  11
+thing i                   :  10
+i found                   :  10
+it was                    :  10
+data types                :  10
+i think                   :  10
+is the                    :   9
+it interesting            :   9
+data preprocessing        :   9
+about data                :   9
+to understand             :   8
+and how                   :   7
+types of                  :   7
+missing data              :   7
+about how                 :   7
+visualization and         :   7
+how to                    :   7
+data is                   :   7
+data can                  :   7

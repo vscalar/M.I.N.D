@@ -1,0 +1,95 @@
+=== Q1: Top Frequent Words ===
+itemset            :  55
+frequent           :  34
+rule               :  31
+example            :  29
+transaction        :  29
+association        :  26
+pattern            :  22
+mining             :  22
+we                 :  20
+items              :  19
+buy                :  16
+data               :  15
+applied            :  15
+they               :  15
+user               :  15
+set                :  14
+fries              :  14
+item               :  12
+together           :  12
+many               :  11
+order              :  11
+users              :  10
+customer           :  10
+milk               :  10
+might              :  10
+watch              :  10
+think              :  10
+people             :   9
+some               :   9
+their              :   9
+
+=== Q1: Top Unique Words (TF-IDF) ===
+itemset              : 0.0436
+transaction          : 0.0288
+fries                : 0.0281
+rule                 : 0.0264
+frequent             : 0.0259
+example              : 0.0248
+association          : 0.0232
+mining               : 0.0217
+pattern              : 0.0202
+supermarket          : 0.0194
+buy                  : 0.0193
+items                : 0.0186
+order                : 0.0180
+item                 : 0.0179
+we                   : 0.0179
+patterns             : 0.0178
+set                  : 0.0176
+transactions         : 0.0176
+they                 : 0.0174
+ux                   : 0.0171
+user                 : 0.0165
+might                : 0.0165
+ds                   : 0.0163
+burrito              : 0.0161
+burger               : 0.0160
+data                 : 0.0152
+users                : 0.0152
+analyzes             : 0.0147
+ml                   : 0.0147
+discover             : 0.0146
+
+=== Q1: Top 2-Gram Pairs (with Stop Words) ===
+can be                    :  29
+association rule          :  24
+frequent itemset          :  22
+pattern mining            :  18
+for example               :  17
+we can                    :  13
+be applied                :  10
+is a                      :  10
+applied to                :  10
+an itemset                :   9
+could be                  :   9
+i think                   :   9
+a transaction             :   8
+such as                   :   8
+in this                   :   7
+an association            :   7
+mining can                :   7
+itemset is                :   7
+a frequent                :   7
+the user                  :   7
+might be                  :   7
+real world                :   7
+to buy                    :   6
+this case                 :   6
+user s                    :   6
+to find                   :   6
+be the                    :   6
+set of                    :   5
+have a                    :   5
+the same                  :   5

@@ -1,0 +1,96 @@
+
+=== Q2: Top Frequent Words ===
+data               :  47
+mining             :  19
+through            :  13
+information        :  10
+problem            :  10
+patterns           :  10
+time               :   9
+find               :   8
+using              :   8
+how                :   7
+clustering         :   7
+many               :   6
+sleep              :   6
+pattern            :   6
+help               :   6
+games              :   5
+concepts           :   5
+life               :   5
+daily              :   5
+class              :   5
+organize           :   5
+hope               :   5
+classification     :   5
+which              :   5
+problems           :   5
+course             :   5
+based              :   5
+what               :   5
+detection          :   5
+need               :   5
+
+=== Q2: Top Unique Words (TF-IDF) ===
+data                 : 0.0600
+mining               : 0.0401
+through              : 0.0331
+patterns             : 0.0272
+information          : 0.0259
+problem              : 0.0246
+how                  : 0.0235
+find                 : 0.0208
+sleep                : 0.0207
+time                 : 0.0207
+problems             : 0.0207
+clustering           : 0.0190
+using                : 0.0190
+what                 : 0.0183
+pattern              : 0.0181
+many                 : 0.0179
+help                 : 0.0171
+games                : 0.0166
+field                : 0.0160
+detection            : 0.0157
+transportation       : 0.0155
+need                 : 0.0153
+classification       : 0.0151
+which                : 0.0147
+hope                 : 0.0147
+daily                : 0.0146
+used                 : 0.0146
+organize             : 0.0145
+class                : 0.0144
+understand           : 0.0143
+
+=== Q2: Top 2-Gram Pairs (with Stop Words) ===
+want to                   :  16
+data mining               :  15
+i want                    :  10
+can be                    :   7
+to find                   :   6
+through data              :   6
+in my                     :   5
+this class                :   5
+help me                   :   5
+based on                  :   5
+i can                     :   5
+will help                 :   4
+it is                     :   4
+this course               :   4
+i could                   :   4
+i m                       :   4
+difficult to              :   3
+there are                 :   3
+and i                     :   3
+i am                      :   3
+patterns in               :   3
+public transportation     :   3
+would be                  :   3
+data to                   :   3
+hope this                 :   3
+classification and        :   3
+be used                   :   3
+i have                    :   3
+to see                    :   3
+of data                   :   3

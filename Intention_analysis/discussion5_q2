@@ -1,0 +1,96 @@
+
+=== Q2: Top Frequent Words ===
+ai                 :  79
+data               :  48
+more               :  46
+statistical        :  36
+agent              :  34
+based              :  33
+outliers           :  31
+distance           :  30
+methods            :  26
+agents             :  20
+approaches         :  18
+better             :  17
+but                :  16
+may                :  15
+think              :  14
+they               :  14
+effective          :  14
+detection          :  13
+detect             :  11
+than               :  11
+complex            :  11
+effectively        :  10
+outlier            :  10
+context            :  10
+when               :  10
+however            :  10
+because            :   9
+detecting          :   9
+method             :   8
+such               :   8
+
+=== Q2: Top Unique Words (TF-IDF) ===
+ai                   : 0.0499
+data                 : 0.0427
+more                 : 0.0376
+agent                : 0.0336
+outliers             : 0.0300
+statistical          : 0.0296
+distance             : 0.0282
+based                : 0.0278
+agents               : 0.0246
+methods              : 0.0237
+better               : 0.0219
+approaches           : 0.0211
+context              : 0.0188
+but                  : 0.0179
+may                  : 0.0175
+they                 : 0.0171
+detection            : 0.0170
+because              : 0.0164
+think                : 0.0158
+than                 : 0.0147
+effective            : 0.0144
+effectively          : 0.0144
+detect               : 0.0143
+complex              : 0.0134
+however              : 0.0132
+method               : 0.0130
+small                : 0.0127
+since                : 0.0124
+when                 : 0.0121
+process              : 0.0120
+
+=== Q2: Top 2-Gram Pairs (with Stop Words) ===
+ai agent                  :  33
+distance based            :  27
+ai agents                 :  19
+statistical or            :  17
+or distance               :  16
+can be                    :  16
+i think                   :  14
+based approaches          :  11
+more effective            :  11
+agent can                 :  10
+be more                   :  10
+it is                     :   9
+the data                  :   9
+outliers more             :   8
+think ai                  :   7
+more effectively          :   7
+methods are               :   7
+statistical methods       :   7
+agents are                :   6
+such as                   :   6
+based methods             :   6
+if the                    :   5
+may be                    :   5
+agents can                :   5
+detecting outliers        :   5
+outliers in               :   5
+the ai                    :   5
+in the                    :   5
+for example               :   5
+high dimensional          :   5

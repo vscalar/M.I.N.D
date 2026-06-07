@@ -1,0 +1,96 @@
+
+=== Q2: Top Frequent Words ===
+we                 :  30
+pattern            :  30
+lift               :  21
+interesting        :  19
+more               :  16
+than               :  14
+find               :  14
+not                :  13
+patterns           :  12
+how                :  10
+bus                :  10
+criteria           :   9
+correlation        :   9
+some               :   9
+unexpected         :   9
+rule               :   9
+use                :   8
+support            :   8
+confidence         :   8
+might              :   8
+other              :   8
+example            :   7
+they               :   7
+items              :   7
+chance             :   7
+but                :   7
+together           :   7
+between            :   6
+two                :   6
+like               :   6
+
+=== Q2: Top Unique Words (TF-IDF) ===
+lift                 : 0.0650
+we                   : 0.0503
+pattern              : 0.0466
+score                : 0.0428
+patterns             : 0.0308
+interesting          : 0.0299
+correlation          : 0.0271
+group                : 0.0258
+how                  : 0.0255
+items                : 0.0228
+more                 : 0.0224
+not                  : 0.0208
+than                 : 0.0206
+find                 : 0.0206
+two                  : 0.0193
+unexpected           : 0.0184
+new                  : 0.0183
+rule                 : 0.0182
+between              : 0.0178
+correlated           : 0.0175
+novelty              : 0.0170
+from                 : 0.0167
+measures             : 0.0167
+some                 : 0.0164
+use                  : 0.0163
+confidence           : 0.0158
+independent          : 0.0157
+chance               : 0.0155
+conviction           : 0.0154
+criteria             : 0.0150
+
+=== Q2: Top 2-Gram Pairs (with Stop Words) ===
+we can                    :  22
+to find                   :  12
+interesting pattern       :  12
+a b                       :   9
+can be                    :   7
+for example               :   6
+lift 1                    :   6
+s b                       :   5
+i think                   :   5
+it can                    :   5
+pattern is                :   5
+support and               :   5
+by chance                 :   5
+find interesting          :   5
+criteria to               :   5
+can use                   :   4
+of the                    :   4
+s a                       :   4
+probability of            :   4
+in the                    :   4
+they are                  :   4
+how much                  :   4
+of a                      :   4
+the rule                  :   4
+the pattern               :   4
+and confidence            :   4
+a and                     :   4
+and b                     :   4
+in addition               :   4
+an interesting            :   4

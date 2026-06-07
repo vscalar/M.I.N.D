@@ -1,0 +1,95 @@
+=== Q1: Top Frequent Words ===
+data               :  82
+science            :  31
+learn              :  22
+course             :  19
+mining             :  19
+how                :  17
+class              :  16
+chose              :  15
+learning           :  14
+ai                 :  13
+project            :   9
+major              :   9
+knowledge          :   9
+what               :   9
+because            :   8
+more               :   8
+reason             :   7
+real               :   7
+understand         :   7
+know               :   7
+interested         :   7
+wanted             :   6
+related            :   6
+study              :   6
+problems           :   6
+school             :   6
+machine            :   6
+skills             :   6
+world              :   6
+insights           :   6
+
+=== Q1: Top Unique Words (TF-IDF) ===
+data                 : 0.0863
+science              : 0.0504
+mining               : 0.0476
+learn                : 0.0470
+course               : 0.0358
+how                  : 0.0323
+class                : 0.0321
+learning             : 0.0305
+chose                : 0.0284
+wanted               : 0.0253
+ai                   : 0.0246
+what                 : 0.0240
+because              : 0.0240
+major                : 0.0236
+knowledge            : 0.0233
+more                 : 0.0214
+project              : 0.0210
+school               : 0.0194
+interested           : 0.0193
+related              : 0.0191
+real                 : 0.0188
+one                  : 0.0188
+reason               : 0.0188
+know                 : 0.0185
+while                : 0.0182
+problems             : 0.0180
+world                : 0.0175
+career               : 0.0173
+understand           : 0.0169
+study                : 0.0169
+
+=== Q1: Top 2-Gram Pairs (with Stop Words) ===
+data science              :  28
+want to                   :  18
+data mining               :  18
+to learn                  :  17
+this course               :  14
+i want                    :  14
+i chose                   :  12
+chose this                :  12
+of data                   :   9
+this class                :   8
+with data                 :   7
+i am                      :   7
+i m                       :   7
+interested in             :   7
+because i                 :   6
+wanted to                 :   6
+a data                    :   6
+to study                  :   6
+course to                 :   6
+about data                :   6
+machine learning          :   6
+my major                  :   5
+so i                      :   5
+as a                      :   5
+can be                    :   5
+learn more                :   5
+real world                :   5
+how to                    :   5
+i wanted                  :   4
+course and                :   4

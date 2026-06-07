@@ -1,0 +1,95 @@
+=== Q1: Top Frequent Words ===
+data               : 178
+pattern            : 144
+clustering         : 127
+mining             : 125
+both               :  67
+similar            :  61
+find               :  54
+they               :  48
+similarities       :  42
+between            :  42
+patterns           :  35
+differences        :  28
+group              :  28
+points             :  25
+focuses            :  24
+into               :  22
+discover           :  22
+groups             :  21
+what               :  21
+together           :  21
+rules              :  20
+difference         :  19
+while              :  19
+we                 :  19
+conceptual         :  17
+clusters           :  17
+similarity         :  17
+but                :  17
+different          :  17
+frequent           :  17
+
+=== Q1: Top Unique Words (TF-IDF) ===
+data                 : 0.0690
+pattern              : 0.0547
+clustering           : 0.0488
+mining               : 0.0463
+they                 : 0.0366
+similar              : 0.0356
+both                 : 0.0347
+find                 : 0.0326
+between              : 0.0294
+similarities         : 0.0264
+patterns             : 0.0244
+differences          : 0.0232
+group                : 0.0231
+focuses              : 0.0222
+groups               : 0.0195
+points               : 0.0194
+we                   : 0.0192
+rules                : 0.0181
+unsupervised         : 0.0176
+while                : 0.0174
+similarity           : 0.0171
+into                 : 0.0170
+discover             : 0.0164
+together             : 0.0162
+what                 : 0.0159
+frequent             : 0.0158
+based                : 0.0157
+but                  : 0.0156
+used                 : 0.0150
+grouping             : 0.0148
+
+=== Q1: Top 2-Gram Pairs (with Stop Words) ===
+pattern mining            : 121
+and clustering            :  48
+mining and                :  39
+to find                   :  37
+clustering is             :  23
+data points               :  23
+focuses on                :  22
+the data                  :  21
+between pattern           :  20
+similar data              :  19
+both are                  :  17
+in data                   :  15
+of data                   :  14
+clustering are            :  14
+is that                   :  13
+conceptual similarities   :  13
+to discover               :  13
+mining focuses            :  13
+used to                   :  13
+of the                    :  12
+that they                 :  12
+similarities and          :  12
+and differences           :  12
+differences between       :  12
+are similar               :  12
+mining is                 :  12
+while clustering          :  12
+based on                  :  12
+between data              :  12
+similarities both         :  12
