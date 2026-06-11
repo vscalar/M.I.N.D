@@ -98,9 +98,7 @@ properties of self data","I would suggest pattern. Maybe that we sort from patte
 In clustering we try to find clusters that can generalize the data points into a few group or noise.
 Conceptually in this two scenario, the similarities are that we are trying to see if these are data that are similar and happening frequently enough for us to draw conclusions.",Maybe we can use cosine similarity to find vectors that are actually similar but different magnitude.
 20,"What are 4 conceptual similarities and differences between 'pattern mining' and 'clustering'?
-I think both processes have pattern that's need to be classified and make grouping data from a larger group to smaller ones. While the differences is pattern mining are derived from correlation and certain trend or repetition, clustering is more statistical say of grouping nearest data together and discard the relevant ones","Can you think of any approaches for clustering, beyond 'distance',
-'density', or 'probabilistic' methods?
-Root: Threshold /bandwidth /limit concept of clustering where data points in a same range, except a threshold is considered as a one cluster.
+I think both processes have pattern that's need to be classified and make grouping data from a larger group to smaller ones. While the differences is pattern mining are derived from correlation and certain trend or repetition, clustering is more statistical say of grouping nearest data together and discard the relevant ones","Root: Threshold /bandwidth /limit concept of clustering where data points in a same range, except a threshold is considered as a one cluster.
 below
 Selective clustering /patternized clustering where there is a certain sequence /trend to classify a cluster
 eg. skip one"
@@ -163,7 +161,7 @@ and then, cluster the points that are on similar location in each group."
 33,"
 Similarity: 'pattern mining' and 'clustering' find kind of pattern in given data set Difference: 'pattern mining' can find not only clusters, but also other patterns like trends (include) or relations.
 clustering is useful only when data set can be divided into clusters.
-""If-then"" rules. I think it is very inefficient, but it can be used when data set is small and we need very accurate clustering result. Additionally, we have to know largely how clusters look like in advance.",NULL
+""If-then"" rules. I think it is very inefficient, but it can be used when data set is small and we need very accurate clustering result. Additionally, we have to know largely how clusters look like in advance.",
 34,"Pattern Mining and clustering are to find hiding structure in data.
 data learning is only data without (label and based on similarities).
 differences are Goal and Output.
@@ -220,8 +218,7 @@ Difference: Whether the meanings indicated by the two together through data are 
 That is the result experienced.",NOISY
 48,"What are conceptual similarities and differences between
 Pattern mining and clustering.
-They find interesting information by collecting patterns. The patterns may be also some kind of similarity. Difference can be that clustering is more a grouping method for datapoints and pattern mining is a method for interpreting relations between data.","Can you think of any other approaches to clustering, beyond distance/density probabilistic?
-A: Maybe for certain specific datasets, pre-defined bounds or lines can work as clustering in case of classification.
+They find interesting information by collecting patterns. The patterns may be also some kind of similarity. Difference can be that clustering is more a grouping method for datapoints and pattern mining is a method for interpreting relations between data.","A: Maybe for certain specific datasets, pre-defined bounds or lines can work as clustering in case of classification.
 → Maybe starting from a point
 Maybe merging clusters with a given threshold can be done by clustering. Two different clusters can merge if the central less smaller certain distance of method for competing similarity."
 49,"Similarities: Both are unsupervised approaches that discover structure in data without labeled examples. Neither requires predefined answers.
@@ -239,11 +236,11 @@ For if we discretize all the features that represent data points, we may constru
 52,"Conceptual and difference between ""pattern mining"" and ""clustering""
 I think the main concept is about finding interesting and useful patterns for both methods. And one of the main different
 for me is PM (pattern mining) tends to find similar data from a large amounts of different not related data. It goes through multiple process with occasional (even always) omitting information /data not needed for the purpose (pruning).
-""clust"" on the other hand, try to group not similar data in a similar group. It does not normally remove from original set of data but it try to group every data in every possible way. Ofc, as a side effect, some data might come out as noise, not belonging to any cluster. I would not call this pruning but a form of natural selection that just happened along the way. not actively searching for noise.",NULL
+""clust"" on the other hand, try to group not similar data in a similar group. It does not normally remove from original set of data but it try to group every data in every possible way. Ofc, as a side effect, some data might come out as noise, not belonging to any cluster. I would not call this pruning but a form of natural selection that just happened along the way. not actively searching for noise.",
 54,"Conceptually they're similar in a sense that both perform mining and clustering are used to find useful information when needing that data to be labeled.
 I think the difference lies in the fact that they have different methods when finding data relevant useful data.
 Pattern mining doesn't direct the relationship and reveals interesting patterns that closer connections that cannot be increasing matchups while clustering groups closer with similar or closer objects but the result of objects together.
-Both are useful, of course, but what kind of right differ depending on what we aim to discover from the data we give find data.",NULL
+Both are useful, of course, but what kind of right differ depending on what we aim to discover from the data we give find data.",
 55,"The concepts of pattern mining and clustering are highly significant in data analysis.
 Both can uncover insights between data; one can discover patterns to compare similar data in clustering, and one can identify association rules from clustering. Therefore, both are similar stages of thinking in terms of handling data to transform and compare data by identifying patterns in these fields.",NOISY
 56,"They both try to what condition of feature has direct to mean.
